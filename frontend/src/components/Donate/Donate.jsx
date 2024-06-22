@@ -8,7 +8,8 @@ const Donate = () => {
 
   return (
     <div className="donate-page">
-      <div className="donate-header text-center">
+      <div className="donate-header">
+        
         <h1>One Eternal Child's life will be changed If you Make a Chance</h1>
         <button onClick={()=>navigate('/order')}>DONATE NOW</button>
       </div>

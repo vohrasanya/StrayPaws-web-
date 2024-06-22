@@ -5,6 +5,7 @@ import Home from './pages/Home/Home'
 import Cart from './pages/Cart/Cart'
 import PlaceOrder from './pages/PlaceOrder/PlaceOrder'
 import Donate from './components/Donate/Donate'
+import Donatepay from './components/Donate/Donatepay'
 import FoodCare from './components/FoodCare/FoodCare'
 import Footer from './components/Footer/Footer'
 import LoginPopup from './components/LoginPopup/LoginPopup'
@@ -24,7 +25,7 @@ const App = () => {
         <Route path='/order' element={<PlaceOrder/>}></Route>
         <Route path='/donate' element={<Donate/>}></Route>
         <Route path='/food&care' element={<FoodCare/>}></Route>
-        
+        <Route path='/donatepay' element={<Donatepay/>}></Route>
       </Routes> 
     </div>
     <Footer/>
