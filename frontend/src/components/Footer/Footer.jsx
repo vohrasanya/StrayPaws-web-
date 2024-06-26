@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="footer-content">
             <div className="footer-content-left">
                 <img src={assets.logo} alt=''/>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis est odit ad impedit veritatis. Pariatur doloribus dicta, sed, culpa laboriosam nulla deleniti dolorum nihil eaque ipsa earum maxime, quae cum ratione quis delectus repellendus?</p>
+                <p>Stray Paws is a comprehensive application dedicated to animal welfare and adoption. Designed to bridge the gap between homeless animals and loving homes, Stray Paws offers a user-friendly platform where users can browse profiles of adoptable pets from various shelters and rescue organizations. Feel free to reach us at our social media handles!</p>
                 <div className='footer-social-icons'>
                     <img src={assets.facebook_icon} alt=''/>
                     <img src={assets.twitter_icon} alt=''/>

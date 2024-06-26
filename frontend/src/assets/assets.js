@@ -11,6 +11,7 @@ import animal_6 from './animal_6.png'
 import animal_7 from './animal_7.png'
 import animal_8 from './animal_8.png'
 
+
 import pet_1 from './pet_1.png'
 import pet_2 from './pet_2.png'
 import pet_3 from './pet_3.png'

@@ -28,7 +28,12 @@ const StoreContextProvider = (props) => {
             }
             return totalAmount;
     }
-
+    const getTotalDonateAmount =() =>{
+        let donateAmount = 0;
+        if (amt >0){
+            donateAmount +=amt;
+        }
+    }
 
         const contextValue ={
     animal_list,

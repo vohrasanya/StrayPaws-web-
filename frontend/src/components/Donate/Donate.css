@@ -1,57 +1,186 @@
 .donate-page {
-    padding: 20px;
+    height: 34vw;
+    margin: 30px auto;
+    background: url('/dog.jpg') no-repeat;
+    background-size: contain;
+    position: relative;
+
   }
   
   .donate-header {
-    background-image: url('/path/to/your/image.jpg');
-    background-size: cover;
-    background-position: center;
-    padding: 100px 0;
-    color: white;
-    margin-bottom: 30px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1.5vw;
+    max-width: 50%;
+    bottom: 10%;
+    right: 3vw;
+    z-index: 0;
+
   }
+.donate-header h2{
+  font-weight: 500;
+  color: black;
+  font-size: max(4.5vw , 22px);
+}
 .donate-header button{
     border: none;
     color: white;
+    font-size: 15px;
     background-color: tomato;
-    width: max(15vw 200px);
+    width: max(20vw 200px);
     padding: 12px 0px ;
     cursor: pointer;
     border-radius: 4px ;
+    padding: 10px;
 }
-.donate-header h1 {
-    font-size: 2.5em;
-    margin-bottom: 20px;
-  }
+
+  /* src/StatisticsComponent.css */
+.statistics-container {
+  padding: 40px;
+  z-index: 1;
   
-  .about-us {
-    padding: 50px 0;
-  }
+}
+
+.statistics-header {
+  display: flex;
+  justify-content: space-around;
+  background-color: #1eae49;
+  color: white;
+  padding: 40px 0px;
   
-  .about-us h2 {
-    text-align: center;
-    margin-bottom: 20px;
-  }
+}
+
+.stat-item {
+  text-align: center;
+}
+
+.stat-number {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.stat-label {
+  font-size: 18px;
+}
+
+.statistics-content {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.statistics-content h2 {
+  font-size: 24px;
+  font-weight: bold;
+  padding-top: 20px;
+}
+.statistics-content p{
+  padding: 20px;
+  font-size: 18px;
+}
+
+.images-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.stat-image {
+  width: 300px;
+  height: auto;
+  margin: 0 10px;
+}
+
+.encouragement-text h3 {
+  font-size: 28px;
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+.encouragement-text p {
+  font-size: 18px;
+}
+.video-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.video-container h1 {
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #333;
+}
+
+.video-player {
+  width: 100%;
+  max-width: 900px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+/* VolunteerUpdates.css */
+.volunteer-section {
+  padding: 40px;
+  text-align: center;
+}
+.volunteer-section p{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 18px;
+}
+
+.volunteer-cards {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  gap: 20px;
+}
+
+.volunteer-card, .volunteer-cta{
+  background: #fffee0;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.volunteer-card img{
+  width: 100%;
+  border-radius: 10px;
+}
+
+.volunteer-card h3, .volunteer-cta h3 {
+  margin-top: 10px;
+  align-items: center;
+  padding: 10px;
+  padding-bottom: 20px;
   
-  .about-us p {
-    text-align: center;
-    margin-bottom: 40px;
-  }
+}
+.volunteer-cta p{
+  padding-bottom: 15px;
+}
+.social-icons {
+  display: flex;
+  gap: 10px;
+}
+
+.social-icons a {
+  text-decoration: none;
+  color: #000;
+}
+
+.volunteer-cta button {
+  background: #f0ad4e;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
   
-  .service-card {
-    text-align: center;
-    padding: 20px;
-    margin-bottom: 20px;
-    background-color: #f8f9fa;
-    border-radius: 5px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  }
-  
-  .service-card h3 {
-    margin-bottom: 15px;
-  }
-  
-  .service-card p {
-    color: #666;
-  }
-  
+}
+
+
+
