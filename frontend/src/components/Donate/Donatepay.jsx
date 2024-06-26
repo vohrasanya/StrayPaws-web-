@@ -1,6 +1,7 @@
 import React, { useContext } from 'react'
 import './Donatepay.css'
 import { StoreContext } from '../../context/StoreContext'
+import { assets } from '../../assets/assets';
 
 export const Donatepay = () => {
   const { getTotalDonateAmount} = useContext(StoreContext);
@@ -25,10 +26,22 @@ export const Donatepay = () => {
         </div>
         <input type='text' placeholder='Phone'/>
         <div className='amt' id='amt'>
-        <input type='text' placeholder='Amount'/>
+        <input type='text' placeholder='Account Number'/>
         </div>
+        
       </div>
-      <div className="place-order-right">
+      <div className="donate-pay-right">
+        
+        <h2>Total Donation</h2>
+        <div className='donate-pay-amt' >
+          <input type='text' placeholder=' Enter amount to donate'/>
+
+        
+      <button>PROCEED TO PAY</button>
+      </div>
+      <div className="donateimg">
+
+      </div>
       {/* <div className="cart-total">
           <h2>Total Donation</h2>
           <div>

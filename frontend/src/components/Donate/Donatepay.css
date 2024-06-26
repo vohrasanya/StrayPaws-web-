@@ -29,8 +29,36 @@
 .donate-pay-right{
     width: 100%;
     max-width: max(40%,500px);
+
+}
+.donate-pay-right button{
+    border: none;
+    color: white;
+    font-size: 15px;
+    background-color: tomato;
+    width: max(20vw 200px);
+    padding: 12px 0px ;
+    cursor: pointer;
+    border-radius: 4px ;
+    padding: 10px;
 }
 .donate-total .cart-total button{
     margin-top: 30px;
     cursor: pointer;
+}
+.donate-pay-amt {
+    display: flex;
+    gap: 10px ;
+    padding: 10px;
+    border-radius: 4px;
+    
+}
+.donateimg{
+    height: 26vw;
+    margin: 34px auto;
+    padding-top: 20px;
+    background: url('/doggy_bg.webp') no-repeat;
+    background-size: contain;
+    position: relative;
+
 }
