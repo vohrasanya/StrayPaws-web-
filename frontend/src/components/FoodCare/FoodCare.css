@@ -1,0 +1,296 @@
+/* General styles */
+.food-container {
+    text-align: center;
+    margin: 5vw;
+  }
+  
+  .food-container h4 {
+    color: #f0ad4e;
+    margin-bottom: 10px;
+  }
+  
+  .food-container h2 {
+    margin-bottom: 20px;
+  }
+  
+  /* Food section */
+  .food-section {
+    text-align: center;
+    padding: 40px;
+  }
+  
+  .food-section p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+  }
+  
+  .food-cards {
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .food-card,
+  .food-cta {
+    background: #fffee0;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .food-card img {
+    width: 25vh;
+    border-radius: 10px;
+  }
+  
+  .food-card h3,
+  .food-cta h3 {
+    margin-top: 10px;
+    align-items: center;
+    padding: 10px;
+    padding-bottom: 20px;
+  }
+  
+  .food-cta p {
+    padding-bottom: 15px;
+  }
+  
+  /* Menu section */
+  .menu-container {
+    text-align: center;
+    margin: 5vw;
+  }
+  
+  .menu-container h4 {
+    color: #f0ad4e;
+    margin-bottom: 10px;
+  }
+  
+  .menu-container h2 {
+    margin-bottom: 20px;
+  }
+  
+  .menu-section {
+    text-align: center;
+    padding: 40px;
+    position: relative;
+  }
+  
+  .menu-section p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+  }
+  
+  .menu-cards {
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+    gap: 20px;
+    overflow: hidden; /* Hide overflowing cards */
+    position: relative; /* Position relative for absolute positioning of cards */
+ /* Adjust as needed */
+  }
+  
+  .menu-card {
+    background: #fff; /* White background for the card bottom */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 200px; /* Fixed width for uniform size */
+    position: relative; /* Position relative for cart icon */
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out; /* Smooth transition */
+  }
+  
+  .card-top {
+    background: #f0f0f0; /* Light grey background for the card top */
+    padding: 20px;
+    border-bottom-left-radius: 50% 20%;
+    border-bottom-right-radius: 50% 20%;
+  }
+  
+  .card-top img {
+    width: 100px; /* Fixed width for images */
+    height: 100px; /* Fixed height for images */
+    object-fit: cover; /* Ensure images cover the area */
+    margin-bottom: 10px; /* Space below the images */
+  }
+  
+  .card-bottom {
+    padding: 20px;
+  }
+  
+  .card-bottom h3 {
+    margin-top: 10px;
+    padding: 10px;
+    padding-bottom: 20px;
+  }
+  
+  .card-bottom p {
+    font-size: 14px;
+    color: #888;
+  }
+  
+  .menu-card-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .menu-card .price {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .menu-card .cart-icon {
+    font-size: 20px;
+    color: #f0ad4e;
+    cursor: pointer;
+  }
+  
+  /* Feedback section */
+  .feedback-container {
+    text-align: center;
+    margin: 5vw;
+  }
+  
+  .feedback-container h4 {
+    color: #f0ad4e;
+    margin-bottom: 10px;
+  }
+  
+  .feedback-container h2 {
+    margin-bottom: 20px;
+  }
+  
+  .feedback-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+    position: relative;
+  }
+  
+  .feedback-images {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .feedback-image-large {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .feedback-image-large img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .feedback-image-small {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .feedback-image-small img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .feedback-cards {
+    display: flex;
+    overflow: hidden;
+    width: 600px;
+    position: relative;
+  }
+  
+  .feedback-card {
+    background: #f0f0f0; /* Light grey background for the card bottom */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 400px; /* Fixed width for uniform size */
+    margin: auto;
+    transition: transform 0.3s ease-in-out; /* Smooth transition */
+  }
+  
+  .feedback-content {
+    padding: 20px;
+  }
+  
+  .feedback-image {
+    margin-bottom: 10px;
+  }
+  
+  .feedback-image img {
+    width: 50px; /* Fixed width for images */
+    height: 50px; /* Fixed height for images */
+    border-radius: 50%; /* Make the image round */
+    object-fit: cover; /* Ensure images cover the area */
+  }
+  
+  .feedback-content h3 {
+    margin-top: 10px;
+    padding: 10px;
+    padding-bottom: 5px;
+  }
+  
+  .feedback-content p {
+    font-size: 14px;
+    color: #888;
+  }
+  
+  .feedback-rating {
+    color: #f0ad4e; /* Star color */
+    font-size: 18px; /* Star size */
+    margin-bottom: 10px;
+  }
+
+  .menu-container .moremenu{
+     border: none;
+    color: white;
+    margin-left: 20px;
+    font-weight: 500;
+    padding: 1vw 2.3vw;
+    background-color: #6f8a81;
+    font-size: max(1vw, 13px);
+    border-radius: 50px;
+  }
+  
+  /* Navigation buttons */
+  .nav-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+    width: 40px;
+    height: 40px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .nav-button.left {
+    left: -20px;
+    background-image: url('/src/assets/double-left.png'); /* Path to your left arrow image */
+  }
+  
+  .nav-button.right {
+    right: -20px;
+    background-image: url('/src/assets/double-right.png'); /* Path to your right arrow image */
+  }
+  

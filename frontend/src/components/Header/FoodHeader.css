@@ -1,0 +1,61 @@
+.food-header {
+    height: 34vw;
+    margin: 0;
+    background: url('/foodncare.png') no-repeat center center;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.food-header-contents {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1.5vw;
+    max-width: 40%;
+    bottom: 30%;
+    left: 6vw;
+    animation: fadeIn 3s;
+}
+.food-header-contents p {
+    color: black;
+    font-size: 1.1vw; 
+    margin-left: 20px;
+}
+.food-header-contents h2 {
+    color: black;
+    font-size: 2.6vw; 
+   font-weight: 800;
+    margin-left: 20px;
+}
+.food-header-contents .highlight {
+    color: #6f8a81; 
+}
+.food-header-contents button {
+    border: none;
+    color: white;
+    margin-left: 20px;
+    font-weight: 500;
+    padding: 1vw 2.3vw;
+    background-color: #6f8a81;
+    font-size: max(1vw, 13px);
+    border-radius: 50px;
+}
+@media (max-width: 1050px) {
+    .food-header-contents {
+        max-width: 45%;
+    }
+}
+@media (max-width: 750px) {
+    .food-header-contents {
+        max-width: 65%;
+    }
+    .food-header-contents p {
+        display: none;
+    }
+    .food-header-contents button {
+        padding: 2vw 4vw;
+    }
+}

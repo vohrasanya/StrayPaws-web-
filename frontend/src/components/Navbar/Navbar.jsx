@@ -14,11 +14,11 @@ const Navbar = ({setShowLogin}) => {
     <div className ='navbar'>
       <Link to='./'><img src={assets.logo} alt="" className='logo' /></Link>
       <ul className='navbar-menu'>
-      <Link to ="/"onClick={()=>setMenu("home")} className={menu=="home"?"active":""}>home</Link>
-      <a href ='#explore-adopt' onClick={()=>setMenu("adopt")} className={menu=="adopt"?"active":""}>adopt</a>
-      <a href ='/donate' onClick={()=>setMenu("donate")} className={menu=="donate"?"active":""}>donate</a>
-      <a href =''onClick={()=>setMenu("food")} className={menu=="food"?"active":""}>food & care</a>
-      <a href ='#footer' onClick={()=>setMenu("contact-us")}className={menu=="contact-us"?"active":""}>contact us</a>
+      <Link to ="/"onClick={()=>setMenu("home")} className={menu==="home"?"active":""}>home</Link>
+      <a href ='#explore-adopt' onClick={()=>setMenu("adopt")} className={menu==="adopt"?"active":""}>adopt</a>
+      <Link to="/donate" onClick={() => setMenu("donate")} className={menu === "donate" ? "active" : ""}>donate</Link>
+      <Link to="/food&care" onClick={() => setMenu("food")} className={menu === "food" ? "active" : ""}>food & care</Link> 
+      <a href ='#footer' onClick={()=>setMenu("contact-us")}className={menu==="contact-us"?"active":""}>contact us</a>
 
       </ul>
       <div className='navbar-right'>
