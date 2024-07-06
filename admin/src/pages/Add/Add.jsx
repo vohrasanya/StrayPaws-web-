@@ -1,7 +1,7 @@
 import React, {  useState } from 'react'
 import './Add.css'
 import {assets} from '../../assets/assets'
-import axios from 'axios'
+import axios from "axios"
 
 const Add = () => {
 
@@ -25,10 +25,10 @@ const Add = () => {
     formData.append("description",data.description)
     formData.append("price",Number(data.price))
     formData.append("category",data.category)
-    formData.append("image",data.image)
+    formData.append("image",image)
     const response = await axios.post(`${url}/api/pet/add`,formData);
     if (response.data.success){
-      setData({
+      setData ({
         name:"",
         description:"",
         price:"",
