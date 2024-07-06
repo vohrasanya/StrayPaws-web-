@@ -1,4 +1,4 @@
-import { response } from "express";
+
 import petModel from "../models/petModel.js";
 import fs from 'fs'
 
@@ -6,7 +6,7 @@ import fs from 'fs'
 
 
 // add pet item
-const addPet = async (req,res) =>{
+const addPet = async (req,res) => {
     let image_filename = `${req.file.filename}`;
 
     const pet = new petModel ({
@@ -21,7 +21,7 @@ const addPet = async (req,res) =>{
         res.json({success:true,message:"Pet Added"})
     } catch(error){
         console.log(error)
-        rex.json({success:false,message:"Error"})
+        res.json({success:false,message:"Error"})
 
     }
 }
