@@ -2,6 +2,7 @@ import React, {  useState } from 'react'
 import './Add.css'
 import {assets} from '../../assets/assets'
 import axios from "axios"
+import { toast } from 'react-toastify'
 
 const Add = () => {
 
@@ -35,9 +36,10 @@ const Add = () => {
         category:"Pet Clothes"
       })
       setImage(false)
+      toast.success(response.data.message)
     }
     else{
-
+      toast.error(response.data.messsage)
     }
   }
   
@@ -71,7 +73,6 @@ const Add = () => {
               <option value="Vet">Vet</option>
               <option value="Accessories">Accessories</option>
               <option value="Pharmacy">Pharmacy</option>
-              <option value="Donate">Donate</option>
               <option value="Adopt">Adopt</option>
             </select>
           </div>

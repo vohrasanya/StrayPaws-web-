@@ -8,7 +8,6 @@ import animal_3 from './animal_3.png'
 import animal_4 from './animal_4.png'
 import animal_5 from './animal_5.png'
 import animal_6 from './animal_6.png'
-import animal_7 from './animal_7.png'
 import animal_8 from './animal_8.png'
 
 
@@ -170,10 +169,6 @@ export const pet_list = [
         pet_image: animal_6
     },
     {
-        pet_name: "Donate",
-        pet_image: animal_7
-    },
-    {
         pet_name: "Adopt",
         pet_image: animal_8
     }]
@@ -183,58 +178,58 @@ export const animal_list = [
         _id: "1",
         name: "Cooper",
         image: pet_1,
-        price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
+        price: 1200,
+        description: "Cooper is a bundle of energy and joy. With his golden fur and expressive brown eyes, he brings warmth to every corner of our home. ",
         category: "Adopt"
     },
     {
         _id: "2",
         name: "Alex",
         image: pet_2,
-        price: 18,
-        description: "Food provides essential nutrients for overall health and well-being",
+        price: 1800,
+        description: " Alex is always ready for an adventure, whether it's a walk in the park or a game of fetch in the backyard.",
         category: "Adopt"
     }, {
         _id: "3",
         name: "Clove",
         image: pet_3,
-        price: 16,
-        description: "Food provides essential nutrients for overall health and well-being",
+        price: 1600,
+        description: "His wagging tail and playful bark are constant reminders of his boundless enthusiasm and love.",
         category: "Adopt"
     }, {
         _id: "4",
         name: "Pepper",
         image: pet_4,
-        price: 24,
+        price: 1400,
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Adopt"
     }, {
         _id: "5",
         name: "Logan",
         image: pet_5,
-        price: 14,
-        description: "Food provides essential nutrients for overall health and well-being",
+        price: 1300,
+        description: "His loyal and loving nature makes him the perfect companion, always there to cheer us up and make our days brighter.",
         category: "Adopt"
     }, {
         _id: "6",
         name: "Milly",
         image: pet_6,
-        price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
+        price: 1200,
+        description: "Milly has a sleek, golden coat that glistens in the sunlight. His expressive brown eyes always seem to be full of curiosity and joy.",
         category: "Adopt"
     }, {
         _id: "7",
         name: "Chilli",
         image: pet_7,
-        price: 20,
-        description: "Food provides essential nutrients for overall health and well-being",
+        price: 2000,
+        description: "He's always eager to play fetch, and his tail wags furiously whenever someone in the family comes home",
         category: "Adopt"
     }, {
         _id: "8",
         name: "Buddy",
         image: pet_8,
-        price: 15,
-        description: "Food provides essential nutrients for overall health and well-being",
+        price: 1500,
+        description: "Despite his playful energy, Buddy knows when it's time to be gentle, especially around kids.",
         category: "Adopt"
     }, {
         _id: "9",
