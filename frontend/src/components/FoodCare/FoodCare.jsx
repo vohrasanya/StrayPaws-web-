@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import FoodHeader from '../../components/Header/FoodHeader'
 import './FoodCare.css'
+import { assets } from '../../assets/assets'
 
 function FoodCare() {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -122,7 +123,7 @@ function FoodCare() {
                       <p>{card.description}</p>
                         <div className="menu-card-details">
                           <span className="price">{card.price}</span>
-                          <span className="cart-icon">&#9825;</span> 
+                          <img onClick={()=>addToCart(id)} src={assets.add_icon_green} alt="" /> 
                         </div>
                   </div>
               </div>

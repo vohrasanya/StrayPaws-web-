@@ -1,9 +1,5 @@
-
 import petModel from "../models/petModel.js";
 import fs from 'fs'
-
-
-
 
 // add pet item
 const addPet = async (req,res) => {
