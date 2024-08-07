@@ -235,326 +235,326 @@ export const animal_list = [
         _id: "9",
         name: "Reign",
         image: pet_9,
-        price: 14,
-        description: "Food provides essential nutrients for overall health and well-being",
+        price: 1400,
+        description: "One of Reign's cutest quirks is his tendency to tilt his head to the side whenever he hears a strange noise, as if he's trying to understand what's happening",
         category: "Adopt"
     }, {
         _id: "10",
         name: "Chip",
         image: pet_10,
-        price: 22,
-        description: "Food provides essential nutrients for overall health and well-being",
+        price: 2200,
+        description: "He also has a habit of 'talking' to us with little barks and whines when he wants attention.",
         category: "Adopt"
     }, {
         _id: "11",
         name: "Trixy",
         image: pet_11,
-        price: 10,
-        description: "Food provides essential nutrients for overall health and well-being",
+        price: 1000,
+        description: "Trixy's favorite activity is chasing after his squeaky toys in the backyard. He also loves our weekend hikes, where he can explore new scents and enjoy the outdoors.",
         category: "Adopt"
     }, {
         _id: "12",
         name: "Vanilla",
         image: pet_12,
-        price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
+        price: 1200,
+        description: " A sleek, golden coat that glistens in the sunlight. Their expressive brown eyes always seem to be full of curiosity and joy.",
         category: "Adopt"
     },
     {
         _id: "13",
         name: "Oscar",
         image: pet_13,
-        price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
+        price: 1200,
+        description: " Oscar has a playful spirit, always ready for a game of fetch or a romp in the yard, yet he also has a gentle, calming presence",
         category: "Adopt"
     },
     {
         _id: "14",
         name: "Coco",
         image: pet_14,
-        price: 18,
-        description: "Food provides essential nutrients for overall health and well-being",
+        price: 1800,
+        description: "Coco has expressive brown eyes always seem to be full of curiosity and joy.",
         category: "Adopt"
     }, {
         _id: "15",
         name: "Max",
         image: pet_15,
-        price: 16,
-        description: "Food provides essential nutrients for overall health and well-being",
+        price: 1600,
+        description: "He's greeting you at the door with an excited wag of his tail or curling up beside you on a lazy afternoon, Max brings joy and comfort to our home every day.",
         category: "Adopt"
     }, {
         _id: "16",
         name: "Lola",
         image: pet_16,
-        price: 24,
-        description: "Food provides essential nutrients for overall health and well-being",
+        price: 2400,
+        description: "His wagging tail and playful bark are constant reminders of his boundless enthusiasm and love.",
         category: "Adopt"
     }, {
         _id: "17",
         name: "Holly",
         image: pet_17,
-        price: 14,
-        description: "Food provides essential nutrients for overall health and well-being",
+        price: 1400,
+        description: " Holly is always ready for an adventure, whether it's a walk in the park or a game of fetch in the backyard.",
         category: "Adopt"
     }, {
         _id: "18",
         name: "Jessi",
         image: pet_18,
-        price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
+        price: 1200,
+        description: "Despite his playful energy, Buddy knows when it's time to be gentle, especially around kids.",
         category: "Adopt"
     }, {
         _id: "19",
         name: "Maggie",
         image: pet_19,
-        price: 20,
-        description: "Food provides essential nutrients for overall health and well-being",
+        price: 2000,
+        description: "Maggie has expressive brown eyes always seem to be full of curiosity and joy.",
         category: "Adopt"
     }, {
         _id: "20",
         name: "Sparky",
         image: pet_20,
-        price: 15,
-        description: "Food provides essential nutrients for overall health and well-being",
+        price: 1500,
+        description: "He's greeting you at the door with an excited wag of his tail or curling up beside you on a lazy afternoon, Max brings joy and comfort to our home every day",
         category: "Adopt"
     }, {
         _id: "21",
         name: "Silly",
         image: pet_21,
-        price: 14,
-        description: "Food provides essential nutrients for overall health and well-being",
+        price: 1400,
+        description: "His loyal and loving nature makes him the perfect companion, always there to cheer us up and make our days brighter.",
         category: "Adopt"
     }, {
         _id: "22",
         name: "Puppy",
         image: pet_22,
-        price: 22,
-        description: "Food provides essential nutrients for overall health and well-being",
+        price: 2200,
+        description: "Despite his playful energy, puppy knows when it's time to be gentle, especially around kids.",
         category: "Adopt"
     }, {
         _id: "23",
         name: "Manny",
         image: pet_23,
-        price: 10,
-        description: "Food provides essential nutrients for overall health and well-being",
+        price: 1000,
+        description: "Manny has expressive brown eyes always seem to be full of curiosity and joy.",
         category: "Adopt"
     }, {
         _id: "24",
         name: "Ruddy",
         image: pet_24,
-        price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
+        price: 1200,
+        description: "His wagging tail and playful bark are constant reminders of his boundless enthusiasm and love.",
         category: "Adopt"
     },
     {
         _id: "25",
         name: "Teddy",
         image: pet_25,
-        price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
+        price: 1200,
+        description: "He also has a habit of 'talking' to us with little barks and whines when he wants attention",
         category: "Adopt"
     },
     {
         _id: "26",
         name: "Rosy",
         image: pet_26,
-        price: 18,
-        description: "Food provides essential nutrients for overall health and well-being",
+        price: 1800,
+        description: "Rosy's favorite activity is chasing after his squeaky toys in the backyard. He also loves our weekend hikes, where he can explore new scents and enjoy the outdoors",
         category: "Adopt"
     }, {
         _id: "27",
         name: "Frank",
         image: pet_27,
-        price: 16,
-        description: "Food provides essential nutrients for overall health and well-being",
+        price: 1600,
+        description: "His wagging tail and playful bark are constant reminders of his boundless enthusiasm and love.",
         category: "Adopt"
     }, {
         _id: "28",
         name: "Chuck",
         image: pet_28,
-        price: 24,
-        description: "Food provides essential nutrients for overall health and well-being",
+        price: 2400,
+        description: "His loyal and loving nature makes him the perfect companion, always there to cheer us up and make our days brighter.",
         category: "Adopt"
     }, {
         _id: "29",
         name: "Monty",
         image: pet_29,
-        price: 14,
-        description: "Food provides essential nutrients for overall health and well-being",
+        price: 1400,
+        description: "He's greeting you at the door with an excited wag of his tail or curling up beside you on a lazy afternoon, Max brings joy and comfort to our home every day",
         category: "Adopt"
     }, {
         _id: "30",
         name: "Spike",
         image: pet_30,
-        price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
+        price: 1200,
+        description: "His wagging tail and playful bark are constant reminders of his boundless enthusiasm and love.",
         category: "Adopt"
     }, {
         _id: "31",
         name: "Noody",
         image: pet_31,
-        price: 20,
-        description: "Food provides essential nutrients for overall health and well-being",
+        price: 2000,
+        description: "He also has a habit of 'talking' to us with little barks and whines when he wants attention",
         category: "Adopt"
     }, {
         _id: "32",
         name: "Bruno",
         image: pet_32,
-        price: 15,
-        description: "Food provides essential nutrients for overall health and well-being",
+        price: 1500,
+        description: "His loyal and loving nature makes him the perfect companion, always there to cheer us up and make our days brighter.",
         category: "Adopt"
     },{
         _id: "33",
         name: "Dog Bed",
         image: pet_33,
         price: 15,
-        description: "Food provides essential nutrients for overall health and well-being",
+        description: "Food  essential nutrients for overall health and well-being",
         category: "Beddings"
     },{
         _id: "34",
         name: "Comfy Bedding",
         image: pet_34,
-        price: 15,
-        description: "Food provides essential nutrients for overall health and well-being",
+        price: 1500,
+        description: "Comfortable bedding solutions for pur little family member.",
         category: "Beddings"
     },{
         _id: "35",
         name: "Pet Brown Bedding",
         image: pet_35,
-        price: 15,
-        description: "Food provides essential nutrients for overall health and well-being",
+        price: 1500,
+        description: "Comfortable bedding solutions for pur little family member.",
         category: "Beddings"
     },{
         _id: "36",
         name: "Blue versatile Bedding",
         image: pet_36,
-        price: 15,
-        description: "Food provides essential nutrients for overall health and well-being",
+        price: 1500,
+        description: "Comfortable bedding solutions for pur little family member.",
         category: "Beddings"
     },{
         _id: "37",
         name: "Cat Bedding",
         image: pet_37,
-        price: 15,
-        description: "Food provides essential nutrients for overall health and well-being",
+        price: 1500,
+        description: "Comfortable bedding solutions for pur little family member.",
         category: "Beddings"
     },{
         _id: "38",
         name: "Paw Bedding",
         image: pet_38,
-        price: 15,
-        description: "Food provides essential nutrients for overall health and well-being",
+        price: 1500,
+        description: "Comfortable bedding solutions for pur little family member.",
         category: "Beddings"
     },{
         _id: "39",
         name: "Comfy Bedding",
         image: pet_39,
-        price: 15,
-        description: "Food provides essential nutrients for overall health and well-being",
+        price: 1500,
+        description: "Comfortable bedding solutions for pur little family member.",
         category: "Beddings"
     },{
         _id: "40",
         name: "Bird Blue Cage",
         image: pet_40,
-        price: 15,
-        description: "Food provides essential nutrients for overall health and well-being",
+        price: 1500,
+        description: "Comfortable bedding solutions for pur little family member.",
         category: "Beddings"
     },{
         _id: "41",
         name: "Birdy Cage ",
         image: pet_41,
-        price: 15,
-        description: "Food provides essential nutrients for overall health and well-being",
+        price: 1050,
+        description: "Comfortable bedding solutions for pur little family member.",
         category: "Beddings"
     },{
         _id: "42",
         name: "Rabbit House",
         image: pet_42,
-        price: 15,
-        description: "Food provides essential nutrients for overall health and well-being",
+        price: 1500,
+        description: "Comfortable bedding solutions for pur little family member.",
         category: "Beddings"
     },{
         _id: "43",
         name: "Rabbit Grey House",
         image: pet_43,
-        price: 15,
-        description: "Food provides essential nutrients for overall health and well-being",
+        price: 1500,
+        description: "Comfortable bedding solutions for pur little family member.",
         category: "Beddings"
     },{
         _id: "44",
         name: "Little Bird House",
         image: pet_44,
-        price: 15,
-        description: "Food provides essential nutrients for overall health and well-being",
+        price: 1500,
+        description: "Comfortable bedding solutions for pur little family member.",
         category: "Beddings"
     },{
         _id: "45",
         name: "Bed",
         image: pet_45,
-        price: 15,
-        description: "Food provides essential nutrients for overall health and well-being",
+        price: 1500,
+        description: "Comfortable bedding solutions for pur little family member.",
         category: "Beddings"
     },{
         _id: "46",
         name: "Bed",
         image: pet_46,
-        price: 15,
+        price: 1500,
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Vet"
     },{
         _id: "47",
         name: "Bed",
         image: pet_47,
-        price: 15,
+        price: 1500,
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Vet"
     },{
         _id: "48",
         name: "Bed",
         image: pet_48,
-        price: 15,
+        price: 1500,
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Vet"
     },{
         _id: "49",
         name: "Bed",
         image: pet_49,
-        price: 15,
+        price: 1500,
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Vet"
     },{
         _id: "50",
         name: "Bed",
         image: pet_50,
-        price: 15,
+        price: 1500,
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Vet"
     },{
         _id: "51",
         name: "Bed",
         image: pet_51,
-        price: 15,
+        price: 1005,
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Vet"
     },{
         _id: "52",
         name: "Bed",
         image: pet_52,
-        price: 15,
+        price: 1005,
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Vet"
     },{
         _id: "53",
         name: "Bed",
         image: pet_53,
-        price: 15,
+        price: 1005,
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Vet"
     },{
         _id: "54",
         name: "Bed",
         image: pet_54,
-        price: 15,
+        price: 1005,
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Accessories"
     },{
