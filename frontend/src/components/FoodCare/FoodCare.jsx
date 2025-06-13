@@ -49,19 +49,19 @@ function FoodCare() {
       name: 'Naura Silvana',
       image: '/src/assets/pet_1.png',
       rating: 5,
-      text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis.',
+      text: 'Great experience every time I use this app. The delivery drivers are always polite, and the app keeps me updated with real-time tracking. I highly recommend it for quick and reliable service!',
     },
     {
       name: 'Azura',
       image: '/src/assets/pet_2.png',
       rating: 5,
-      text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis.',
+      text: 'Very happy with this app. The user experience is fantastic, and I love the personalized recommendations based on my previous orders.',
     },
     {
       name: 'John Doe',
       image: '/src/assets/pet_3.png',
       rating: 4,
-      text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis.',
+      text: 'I’m constantly impressed with the service. The food is always delivered promptly, and I’ve never had any issues with orders.',
     },
   ];
   const handlePrevClick = () =>{

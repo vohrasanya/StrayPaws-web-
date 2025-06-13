@@ -10,7 +10,7 @@ const PetItem = ({id,name,price,description,image}) => {
   return (
     <div className='pet-item'>
         <div className="pet-item-img-container">
-            <img className='pet-item-image' src={url+"/images/"+image} alt="" />
+            <img className='pet-item-image' src={image}  alt="" />
             {
               !cartItems [id]
                  ?<img className ="add" onClick={()=>addToCart(id)}src={assets.add_icon_white} alt=''/>

@@ -1,0 +1,132 @@
+/* General Styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #333;
+  }
+  
+  .vet-container {
+    text-align: center;
+  }
+  
+  /* Header */
+  .vet-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+ 
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+  }
+  
+
+  .vet-intro {
+    padding: 40px 20px;
+  }
+  
+  .doctor-images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .doctor-images img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    object-fit: cover;
+    border: 2px solid #ddd;
+  }
+  
+  .vet-intro h2 {
+    font-size: 28px;
+    color: #222;
+    margin: 20px 0;
+  }
+  
+  .vet-intro p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .connect-btn {
+    background-color: #4a4ae4;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .connect-btn:hover {
+    background-color: #3b3bce;
+  }
+  
+  /* Services Section */
+  .vet-services {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px 20px;
+  }
+  
+  .service {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    text-align: left;
+  }
+  
+  .service h3 {
+    color: #4a4ae4;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .service p {
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .service a {
+    text-decoration: none;
+    color: #4a4ae4;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .animal-display{
+    margin-top: 30px;
+
+}
+.animal-display h2{
+    font-size:max(2vw, 24px) ;
+    font-weight: 600;
+}
+.animal-display-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(240px,1fr));
+    margin-top: 30px;
+    gap: 30px;
+    row-gap: 50px;
+}

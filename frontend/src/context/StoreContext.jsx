@@ -48,7 +48,7 @@ const StoreContextProvider = (props) => {
     }
 
     const fetchAnimalList = async () =>{
-        const response = await axios.get(url+"/api/pet/list");
+        const response = await axios.get(url+"/api/pet/list");   
         setAnimalList(response.data.data)
     }
 

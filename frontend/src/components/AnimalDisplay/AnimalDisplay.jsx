@@ -8,7 +8,7 @@ const AnimalDisplay = ({category}) => {
 
   return (
     <div className='animal-display' id='animal-display'>
-      <h2>Top pets near you</h2>
+      <h2>Top searches near you</h2>
       <div className="animal-display-list">
         {animal_list.map((item,index)=>{
           if(category==="All"|| category===item.category){
