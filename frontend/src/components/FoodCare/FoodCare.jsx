@@ -10,37 +10,37 @@ function FoodCare() {
       imgSrc : '/src/assets/pet_78.png',
       title:'Easy to Order',
       description:'Your only order through the app',
-      price:'$20.2'
+      price:'₹200.2'
     },
     {
       imgSrc : '/src/assets/pet_76.png',
       title:'Easy to Order',
       description:'Your only order through the app',
-      price:'$20.2'
+      price:'₹800.2'
     },
     {
       imgSrc : '/src/assets/pet_80.png',
       title:'Easy to Order',
       description:'Your only order through the app',
-      price:'$20.2'
+      price:'₹1000.2'
     },
     {
       imgSrc : '/src/assets/pet_78.png',
       title:'Easy to Order',
       description:'Your only order through the app',
-      price:'$20.2'
+      price:'₹230.2'
     },
     {
       imgSrc : '/src/assets/pet_76.png',
       title:'Easy to Order',
       description:'Your only order through the app',
-      price:'$20.2'
+      price:'₹400.2'
     },
     {
       imgSrc : '/src/assets/pet_80.png',
       title:'Easy to Order',
       description:'Your only order through the app',
-      price:'$20.2'
+      price:'₹600.2'
     }
   ];
 
